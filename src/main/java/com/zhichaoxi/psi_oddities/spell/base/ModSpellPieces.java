@@ -141,22 +141,7 @@ public final class ModSpellPieces {
 
     // ========== COMBAT MAGIC  ==========
 
-    public static final DeferredHolder<Class<? extends SpellPiece>, Class<PieceTrickAttack>> TRICK_ATTACK =
-            SPELL_PIECES.register(LibPieceNames.TRICK_ATTACK, () -> PieceTrickAttack.class);
-
-    public static final DeferredHolder<Class<? extends SpellPiece>, Class<PieceTrickMassAttack>> TRICK_MASS_ATTACK =
-            SPELL_PIECES.register(LibPieceNames.TRICK_MASS_ATTACK, () -> PieceTrickMassAttack.class);
-
-    public static final DeferredHolder<Class<? extends SpellPiece>, Class<PieceTrickNullifyDefense>> TRICK_NULLIFY_DEFENSE =
-            SPELL_PIECES.register(LibPieceNames.TRICK_NULLIFY_DEFENSE, () -> PieceTrickNullifyDefense.class);
-
-    public static final DeferredHolder<Collection<Class<? extends SpellPiece>>, Collection<Class<? extends SpellPiece>>> COMBAT_MAGIC =
-            ADVANCEMENT_GROUPS.register(com.zhichaoxi.psi_oddities.lib.LibPieceGroups.COMBAT_MAGIC,
-                    () -> Arrays.asList(
-                            PieceTrickAttack.class,
-                            PieceTrickMassAttack.class,
-                            PieceTrickNullifyDefense.class
-                    ));
+// no
 
     // ========== MISC ==========
 

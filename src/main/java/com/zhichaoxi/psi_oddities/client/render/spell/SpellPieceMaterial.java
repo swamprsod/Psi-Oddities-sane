@@ -23,15 +23,7 @@ public class SpellPieceMaterial {
             registerMaterial(LibPieceNames.TRICK_SAVE_ENTITY);
 
     // ========== COMBAT MAGIC  ==========
-    public static final DeferredHolder<Material, Material> TRICK_ATTACK =
-            registerMaterial(LibPieceNames.TRICK_ATTACK);
-
-    public static final DeferredHolder<Material, Material> TRICK_MASS_ATTACK =
-            registerMaterial(LibPieceNames.TRICK_MASS_ATTACK);
-
-    public static final DeferredHolder<Material, Material> TRICK_NULLIFY_DEFENSE =
-            registerMaterial(LibPieceNames.TRICK_NULLIFY_DEFENSE);
-
+// meow
     // ========== STRING PROCESSING ==========
     public static final DeferredHolder<Material, Material> OPERATOR_COMMENT_FORMAT =
             registerMaterial(LibPieceNames.OPERATOR_COMMENT_FORMAT);
